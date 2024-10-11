@@ -1,11 +1,11 @@
-import { NotificationContainer } from 'react-notifications';
-import React from 'react';
+import { NotificationContainer } from "react-notifications";
+import React from "react";
 
-import 'react-notifications/lib/notifications.css';
+import "react-notifications/lib/notifications.css";
 
-import './App.scss';
+import "./App.scss";
 
-import Home from './pages/Home/Home';
+import Home from "./pages/Home/Home";
 
 function App() {
   return (

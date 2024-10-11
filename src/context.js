@@ -1,6 +1,6 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from "react";
 
-const walletAddress = '';
+const walletAddress = "";
 const voteCountChanged = 0;
 const synchroTables = 0;
 const adminFlag = false;
@@ -17,7 +17,7 @@ export const AppContext = createContext({
 });
 
 export function WalletProvider({ children }) {
-  const [walletAddress, setWalletAddress] = useState('');
+  const [walletAddress, setWalletAddress] = useState("");
   const [voteCountChanged, setVoteCountChanged] = useState(0);
   const [synchroTables, setSynchroTables] = useState(0);
   const [adminFlag, setAdminFlag] = useState(false);
